@@ -1,4 +1,4 @@
-#mi primer repositorio
+
 #  Control de Préstamo de Material Escolar
 
 Aplicación web desarrollada con **Angular**, **Node.js (Express)** y **PostgreSQL**.  
