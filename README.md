@@ -91,7 +91,7 @@ project-root/
 │   └── scripts/
 │
 └── README.md
-##DISEÑO DE LA BASE DE DATOS
+##  DISEÑO DE LA BASE DE DATOS
 -- Tabla de materiales
 CREATE TABLE materials (
   id SERIAL PRIMARY KEY,
@@ -108,7 +108,7 @@ CREATE TABLE loans (
   loan_date DATE DEFAULT CURRENT_DATE,
   return_date DATE
 );
- Instalación y ejecución
+ ##  Instalación y ejecución
 1️ Clonar el repositorio
 git clone https://github.com/tu-usuario/control-materiales.git
 cd control-materiales
@@ -133,7 +133,11 @@ cd ../frontend
 
 Abrir en el navegador:
  http://localhost:4200
-  Endpoints del Backend
+
+
+ ##   Endpoints del Backend
+
+
 | Método   | Ruta                    | Descripción                          |
 | -------- | ----------------------- | ------------------------------------ |
 | **GET**  | `/api/materials`        | Lista todos los materiales           |
