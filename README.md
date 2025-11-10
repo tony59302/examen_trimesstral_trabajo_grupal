@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-  <img src="https://es.dreamstime.com/encabezado-tipogr%C3%A1fico-de-inform%C3%A1tica-software-escritura-estudiantes-y-creaci%C3%B3n-c%C3%B3digo-para-el-equipo-script-codificaci%C3%B3n-image197049507" alt="Encabezado Proyecto Informática" width="100%">
+  <img src="https://www.google.com/imgres?q=imagenes%20para%20el%20encabezado%20de%20programaci%C3%B3n&imgurl=https%3A%2F%2Fimg.freepik.com%2Fvector-premium%2Fprogramacion-cabecera-tipografica-educacion-ti-estudiantes-escriben-software-crean-codigo-computadora-script-codificacion-proyecto-web-aplicacion-ilustracion-vectorial_277904-13340.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.es%2Fvector-premium%2Fconcepto-encabezado-tipografico-programador-idea-trabajar_9371517.htm&docid=CT4cwwY0Cd8bFM&tbnid=24f_CSI1B78ABM&vet=12ahUKEwi33p_ZzeiQAxX4RjABHSsUC_AQM3oECBoQAA..i&w=626&h=283&hcb=2&itg=1&ved=2ahUKEwi33p_ZzeiQAxX4RjABHSsUC_AQM3oECBoQAA" alt="Encabezado Proyecto Informática" width="100%">
 </div>
 #  Control de Préstamo de Material Escolar
 
