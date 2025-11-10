@@ -1,4 +1,6 @@
-
+<div style="text-align:center;">
+  <img src="https://es.dreamstime.com/encabezado-tipogr%C3%A1fico-de-inform%C3%A1tica-software-escritura-estudiantes-y-creaci%C3%B3n-c%C3%B3digo-para-el-equipo-script-codificaci%C3%B3n-image197049507" alt="Encabezado Proyecto Informática" width="100%">
+</div>
 #  Control de Préstamo de Material Escolar
 
 Aplicación web desarrollada con **Angular**, **Node.js (Express)** y **PostgreSQL**.  
