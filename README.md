@@ -91,28 +91,19 @@ project-root/
 │   └── scripts/
 │
 └── README.md
+
+
 ##  DISEÑO DE LA BASE DE DATOS
 -- Tabla de materiales
 CREATE TABLE materials (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  quantity INT DEFAULT 1,
-  available BOOLEAN DEFAULT TRUE
-);
+TOCA PONER NUESTRA BASE DE DATOS
 
--- Tabla de préstamos
-CREATE TABLE loans (
-  id SERIAL PRIMARY KEY,
-  material_id INT REFERENCES materials(id),
-  borrower_name VARCHAR(100),
-  loan_date DATE DEFAULT CURRENT_DATE,
-  return_date DATE
-);
  ##  Instalación y ejecución
-1️ Clonar el repositorio
-git clone https://github.com/tu-usuario/control-materiales.git
-cd control-materiales
-2️  Configurar el Backendcd backend
+
+1️⃣ Clonar el repositorio
+git clone https://TOCA PONER NUESTA DIRECCION
+cd"  "
+2️⃣ Configurar el Backendcd backend
 npm install
 cp .env.example .env
 Editar el archivo .env con tus credenciales de base de datos PostgreSQL:
@@ -122,14 +113,15 @@ DB_NAME=materiales_db
 DB_HOST=localhost
 DB_PORT=5432
 PORT=3000
-Iniciar el servidor:
+
+## Iniciar el servidor:
 
 npm start
 
-3️ Configurar el Frontend
+3️⃣Configurar el Frontend
 cd ../frontend
 
-4️ Acceder a la aplicación
+4️⃣Acceder a la aplicación
 
 Abrir en el navegador:
  http://localhost:4200
@@ -148,7 +140,7 @@ Abrir en el navegador:
 ## Roles y responsabilidades
 | Rol                              | Responsabilidades                                                                |
 | -------------------------------- | -------------------------------------------------------------------------------- |
-| **Scrum Master**                 | Coordinar el equipo, asignar tareas, controlar tiempos y validar entregas.       |
-| **Frontend Developer (Angular)** | Diseñar la interfaz visual, crear componentes y conectar con la API.             |
-| **Backend Developer (Express)**  | Crear rutas, controladores y lógica de negocio.                                  |
-| **Dev-DB/QA**                    | Diseñar la base de datos, escribir scripts SQL y realizar pruebas de integridad. |
+| **Scrum Master ATHONY**                 | Coordinar el equipo, asignar tareas, controlar tiempos y validar entregas.       |
+| **Frontend Developer JANDRY(Angular)** | Diseñar la interfaz visual, crear componentes y conectar con la API.             |
+| **Backend Developer KEVIN (Express)**  | Crear rutas, controladores y lógica de negocio.                                  |
+| **Dev-DB/QA THAYRON**                    | Diseñar la base de datos, escribir scripts SQL y realizar pruebas de integridad. |
