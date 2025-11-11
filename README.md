@@ -75,17 +75,18 @@ Base de Datos (PostgreSQL)
 
 ##  Estructura del proyecto
 
-```plaintext
-project-root/
 │
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── models/
-│   │   └── db/
-│   ├── package.json
-│   └── server.js
+Backend/
+ ├ controllers/
+ │   ├ loansController.js
+ │   └ materialsController.js
+ ├ routes/
+ │   ├ loans.js
+ │   └ materials.js
+ ├ sql/
+ ├ db.js
+ └ server.js
+
 │
 ├── frontend/
 │   ├── src/
@@ -106,7 +107,6 @@ project-root/
 
 ##  DISEÑO DE LA BASE DE DATOS
 
-TOCA PONER NUESTRA BASE DE DATOS
 
  ##  Instalación y ejecución
 
