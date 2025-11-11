@@ -1,0 +1,15 @@
+<h2>Materiales</h2>
+
+<div>
+  <input placeholder="Nombre" [(ngModel)]="newMaterial.name">
+  <input type="number" min="1" [(ngModel)]="newMaterial.quantity">
+  <button (click)="add()">Agregar</button>
+</div>
+
+<table>
+  <tr><th>Material</th><th>Cantidad</th></tr>
+  <tr *ngFor="let m of materials">
+    <td>{{m.name}}</td>
+    <td>{{m.quantity}}</td>
+  </tr>
+</table>

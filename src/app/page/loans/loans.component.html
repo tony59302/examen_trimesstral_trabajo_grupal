@@ -1,0 +1,21 @@
+<h2>Registrar Préstamo</h2>
+
+<select [(ngModel)]="selectedMaterial">
+  <option value="">Seleccionar material...</option>
+  <option *ngFor="let m of materials" [value]="m.id">{{m.name}}</option>
+</select>
+
+<input placeholder="Nombre solicitante" [(ngModel)]="borrower">
+<button (click)="makeLoan()">Prestar</button>
+
+<h2>Préstamos Activos</h2>
+
+<table>
+  <tr><th>Material</th><th>Persona</th><th>Fecha</th><th></th></tr>
+  <tr *ngFor="let l of loans">
+    <td>{{l.material_name}}</td>
+    <td>{{l.borrower_name}}</td>
+    <td>{{l.loan_date | date:'short'}}</td>
+    <td><button (click)="returnLoan(l.id)">Devolver</button></td>
+  </tr>
+</table>
