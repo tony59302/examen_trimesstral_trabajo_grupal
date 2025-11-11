@@ -1,5 +1,10 @@
 
 #  Control de Préstamo de Material Escolar
+INTEGRANES:
+ANTHONY VARGAS 
+JANDRY VARGAS
+KEVIN MOSQUERA
+THAYRON ARIAS
 
 Aplicación web desarrollada con **Angular**, **Node.js (Express)** y **PostgreSQL**.  
 Su objetivo es **facilitar el registro y control de préstamos y devoluciones de materiales escolares** dentro de una institución educativa.
@@ -94,15 +99,14 @@ project-root/
 
 
 ##  DISEÑO DE LA BASE DE DATOS
--- Tabla de materiales
-CREATE TABLE materials (
+
 TOCA PONER NUESTRA BASE DE DATOS
 
  ##  Instalación y ejecución
 
 1️⃣ Clonar el repositorio
 git clone https://TOCA PONER NUESTA DIRECCION
-cd"  "
+cd" NUESTRA DIRECCION "
 2️⃣ Configurar el Backendcd backend
 npm install
 cp .env.example .env
@@ -119,11 +123,13 @@ PORT=3000
 npm start
 
 3️⃣Configurar el Frontend
+
 cd ../frontend
 
 4️⃣Acceder a la aplicación
 
 Abrir en el navegador:
+
  http://localhost:4200
 
 
