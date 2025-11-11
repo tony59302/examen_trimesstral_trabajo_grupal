@@ -1,10 +1,16 @@
 
 #  Control de Préstamo de Material Escolar
 INTEGRANES:
-ANTHONY VARGAS 
+
+ANTHONY VARGAS
+
 JANDRY VARGAS
+
 KEVIN MOSQUERA
+
+
 THAYRON ARIAS
+
 
 Aplicación web desarrollada con **Angular**, **Node.js (Express)** y **PostgreSQL**.  
 Su objetivo es **facilitar el registro y control de préstamos y devoluciones de materiales escolares** dentro de una institución educativa.
