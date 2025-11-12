@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { MaterialsComponent } from './pages/materials/materials.component';
-import { LoansComponent } from './pages/loans/loans.component';
+import { MaterialsComponent } from './page/materials/materials.component';
+import { LoansComponent } from './page/loans/loans.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'materials', pathMatch: 'full' },
