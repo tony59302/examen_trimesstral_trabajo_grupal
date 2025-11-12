@@ -10,3 +10,5 @@ INSERT INTO loans (material_id, borrower_name, loan_date, return_date) VALUES
 (3, 'María López', NOW() - INTERVAL '3 days', NOW() - INTERVAL '1 day')
 ON CONFLICT DO NOTHING;
 -- Inserta datos de prueba iniciales en la tabla 'loans' si no existen ya
+
+-- Este script inserta datos iniciales en las tablas. Es opcional ejecutarlo.
