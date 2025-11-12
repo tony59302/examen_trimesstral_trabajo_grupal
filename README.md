@@ -1,1 +1,1 @@
-#mi primer repositorio
+Ejecutar "npm install" para instalar las dependecias y luego "npm run dev" para inicializar la API
