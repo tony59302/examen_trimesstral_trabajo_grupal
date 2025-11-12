@@ -1,6 +1,6 @@
 
 #  Control de Préstamo de Material Escolar
-INTEGRANES:
+INTEGRANTES:
 
 ANTHONY VARGAS
 
@@ -89,13 +89,17 @@ Backend/
 
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   ├── assets/
-│   │   └── environments/
-│   ├── angular.json
-│   └── package.json
-│
+│   src/
+ └── app/
+     ├── components/
+     │   └── navbar/
+     ├── page/
+     │   ├── loans/
+     │   └── materials/
+     ├── services/
+     ├── app.routes.ts
+     └── ...
+
 ├── db/
 │   ├── schema.sql
 │   ├── migrations/
@@ -106,6 +110,15 @@ Backend/
 
 
 ##  DISEÑO DE LA BASE DE DATOS
+CREATE TABLE IF NOT EXISTS materials
+ ( id SERIAL PRIMARY KEY, name VARCHAR(150) NOT NULL,
+  quantity INT NOT NULL DEFAULT 1 CHECK (quantity >= 0) );
+
+ CREATE TABLE IF NOT EXISTS loans
+  ( id SERIAL PRIMARY KEY, material_id INT NOT NULL REFERENCES materials(id)
+   ON DELETE CASCADE, borrower_name VARCHAR(150) NOT NULL,
+    loan_date TIMESTAMP WITH TIME ZONE DEFAULT now(), 
+    return_date TIMESTAMP WITH TIME ZONE );
 
 
  ##  Instalación y ejecución
